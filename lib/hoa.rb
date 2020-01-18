@@ -11,9 +11,8 @@ def add_character(show, name)
 [:jetsons] << "Snarf"
 [:third_earthers] << "Snarf"
 
-return jetsons 
-return third_earthers
-return BASE_HOA 
+return BASE_HOA[:jetsons] 
+return BASE_HOA [:third_earthers] 
 
 end
 
